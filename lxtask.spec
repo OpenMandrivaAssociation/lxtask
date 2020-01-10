@@ -16,7 +16,7 @@ Lightweight and desktop independent task manager.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 ./autogen.sh
 
 %build
