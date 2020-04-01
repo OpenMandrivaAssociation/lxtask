@@ -1,11 +1,11 @@
 Summary:	Lightweight and desktop independent task manager
 Name:		lxtask
-Version:	0.1.4
-Release:	9
+Version:	0.1.9
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		http://lxde.sourceforge.net/
-Source0:	http://dfn.dl.sourceforge.net/sourceforge/lxde/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.xz
 Patch0:	lxtask-0.1.4-automake_113.patch
 BuildRequires:	desktop-file-utils
 BuildRequires:	intltool
@@ -20,11 +20,11 @@ Lightweight and desktop independent task manager.
 ./autogen.sh
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name}
 
