@@ -30,4 +30,4 @@ Lightweight and desktop independent task manager.
 %files -f %{name}.lang
 %{_bindir}/%{name}
 %{_datadir}/applications/*.desktop
-
+%_mandir}/man1/lxtask.1.*
