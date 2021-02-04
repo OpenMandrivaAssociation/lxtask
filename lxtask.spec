@@ -1,6 +1,6 @@
 Summary:	Lightweight and desktop independent task manager
 Name:		lxtask
-Version:	0.1.9
+Version:	0.1.10
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
