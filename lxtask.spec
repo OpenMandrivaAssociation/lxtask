@@ -1,5 +1,5 @@
 # git snapshot
-%global snapshot 1
+#global snapshot 1
 %if 0%{?snapshot}
 	%global commit		6aaa2949c8caf63cda04ee4068fe389751aa1e7b
 	%global commitdate	20240905
@@ -8,8 +8,8 @@
 
 Summary:	Lightweight and desktop independent task manager
 Name:		lxtask
-Version:	0.1.11
-Release:	2
+Version:	0.1.12
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		https://lxde.sourceforge.net/
