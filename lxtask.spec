@@ -15,6 +15,11 @@ Group:		Graphical desktop/Other
 Url:		https://lxde.sourceforge.net/
 #Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.xz
 Source0:	https://github.com/lxde/lxtask/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	desktop-file-utils
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gtk+-3.0)
